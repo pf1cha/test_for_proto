@@ -1,0 +1,9 @@
+// common/class1.proto (example - adjust based on your Class1 structure)
+syntax = "proto3";
+
+package common;
+
+message Class1 {
+  string id = 1; // Assuming Class1 has a string ID
+  // ... other Class1 fields
+}

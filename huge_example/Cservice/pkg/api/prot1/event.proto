@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package event;
+
+import "common/context.proto";
+import "common/el.proto";
+import "common/class1.proto";
+import "common/error.proto";
+
+message Message3Event {
+  common.Context context = 1; // Context data
+  common.Class1 class1 = 2; // Active Configuration Id in Cservice
+  common.EL el = 3; // Comment 1
+}
+
+message Evt10Event {
+  common.Context context = 1; // Context data
+  common.Class1 class1 = 2;
+  common.EL el = 3; // Comment 1
+  common.Error error = 4; // Comment 2
+}

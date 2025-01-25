@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package change;
+import "oservice/pkg/api/prot1/changeaction.proto";
+
+
+message Change {
+  change.ChangeAction operation = 1;
+  string path = 2;
+  string value = 3;
+  string oldValue = 4;
+}

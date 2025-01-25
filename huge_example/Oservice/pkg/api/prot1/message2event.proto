@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package message2event;
+import "oservice/pkg/api/prot1/change.proto";
+import "common/context.proto";
+import "common/el.proto";
+
+message Message2Event {
+  common.Context context = 1;
+  common.EL el = 2;
+  repeated change.Change changes = 3;
+}

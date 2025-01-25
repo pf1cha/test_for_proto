@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package message;
+import "common/context.proto";
+import "common/el.proto";
+import "common/class1.proto";
+
+
+message Message3Event {
+  common.Context context = 1; // required
+  common.Class1 class1 = 2;
+  common.EL el = 3;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package change;
+
+enum ExtraEnum {
+  EXTRA_ENUM_VALUE = 0;
+  EXTRA_ENUM_VALUE2 = 1;
+  EXTRA_ENUM_VALUE3 = 2;
+  EXTRA_ENUM_VALUE4 = 3;
+  EXTRA_ENUM_VALUE5 = 4;
+}

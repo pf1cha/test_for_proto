@@ -1,0 +1,10 @@
+// common/error.proto (example)
+syntax = "proto3";
+
+package common;
+
+message Error {
+  string code = 1;
+  string message = 2;
+  // ... other error-related fields
+}

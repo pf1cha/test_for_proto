@@ -1,0 +1,9 @@
+// el.proto (example)
+syntax = "proto3";
+
+package common;
+
+message EL {
+  int64 id = 1;
+  string name = 2;
+}

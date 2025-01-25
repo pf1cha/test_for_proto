@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package change;
+
+enum ChangeAction {
+  Action1 = 0;
+  Action2 = 1;
+  Action3 = 2;
+}
